@@ -1,0 +1,59 @@
+#menu {
+  display: flex;
+  background-color: #000000; /* Cor de fundo do menu */
+}
+
+#menu a {
+  padding: 10px 20px; /* Adicione espaço ao redor do texto do link */
+  color: #ffffff; /* Cor do texto no menu */
+  text-decoration: none; /* Remove sublinhado dos links */
+}
+
+.center-image {
+  display: block;
+  margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
+p {
+  font-size: 22px;
+  text-align: center;
+}
+
+/* Definindo uma cor de fundo para o body (plano de fundo do site) */
+body {
+  display: flex;
+  background-color: #84b5d7; /* Substitua pelo valor de cor desejado */
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  text-align: center; /* Centraliza o texto do rodapé */
+  background-color: #000000; /* Cor de fundo do rodapé */
+  color: #ffffff; /* Cor do texto no rodapé */
+  padding: 10px 0; /* Adicione espaço acima e abaixo do texto do rodapé */
+}
+
+footer {
+  margin-top: auto;
+}
+
+.container {
+  display: flex;
+  align-items: center; /* Centraliza verticalmente o conteúdo */
+  justify-content: center; /* Centraliza horizontalmente o conteúdo */
+  height: 300px; /* Ajuste a altura do contêiner conforme necessário */
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+p {
+  text-align: center; /* Centraliza o texto horizontalmente */
+}
